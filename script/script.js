@@ -15,3 +15,17 @@ for (let i = 0; i <= 100; i++) {
             console.log('Fizz');
         }
 }
+
+for (let i = 0; i <= 100; i++) {
+    console.log(i);
+    if (i % 5 == 0)  {
+            console.log('Buzz');
+        }
+}
+
+for (let i = 0; i <= 100; i++) {
+    console.log(i);
+    if (i % 15 == 0)  {
+            console.log('FizzBuzz');
+        }
+}
